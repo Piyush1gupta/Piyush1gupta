@@ -1,0 +1,48 @@
+<svg width="440" height="150" viewBox="0 0 440 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Piyush Kumar contribution streak">
+<title>Contribution Streak - Piyush Kumar</title>
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#000000"/><stop offset="100%" stop-color="#0b1530"/>
+  </linearGradient>
+  <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#2f8dff"/><stop offset="100%" stop-color="#1e4fd6"/>
+  </linearGradient>
+  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#2f8dff"/><stop offset="100%" stop-color="#1e4fd6"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style>
+  .slideIn { opacity: 0; animation: slideInA 0.6s ease forwards; }
+  @keyframes slideInA { from { opacity:0; transform: translateX(-16px);} to { opacity:1; transform: translateX(0);} }
+  .popIn { opacity: 0; animation: popA 0.55s cubic-bezier(.2,1.4,.4,1) forwards; }
+  @keyframes popA { 0%{opacity:0; transform:scale(.4);} 70%{opacity:1; transform:scale(1.08);} 100%{opacity:1; transform:scale(1);} }
+  .fadeIn { opacity: 0; animation: fadeA 0.7s ease forwards; }
+  @keyframes fadeA { to { opacity:1; } }
+</style>
+<rect x="1" y="1" width="438" height="148" rx="16" fill="url(#bgGrad)" stroke="#20335f" stroke-width="1.4"/>
+<text x="24" y="34" font-family="Verdana, Geneva, sans-serif" font-size="16" font-weight="700" fill="#eaf2ff" class="fadeIn">Contribution Streak</text>
+<line x1="148.7" y1="30" x2="148.7" y2="100" stroke="#20335f" stroke-width="1"/><line x1="279.3" y1="30" x2="279.3" y2="100" stroke="#20335f" stroke-width="1"/>
+
+    <g transform="translate(24.0,58)">
+    <g class="popIn" style="animation-delay:0.40s">
+      <text x="53.3" y="0" text-anchor="middle" font-family="Verdana, sans-serif" font-size="26" font-weight="700" fill="url(#ringGrad)" filter="url(#glow)">4</text>
+      <text x="53.3" y="24" text-anchor="middle" font-family="Verdana, sans-serif" font-size="11" fill="#a9c0e6">Current Streak</text>
+    </g>
+    </g>
+    <g transform="translate(154.7,58)">
+    <g class="popIn" style="animation-delay:0.58s">
+      <text x="53.3" y="0" text-anchor="middle" font-family="Verdana, sans-serif" font-size="26" font-weight="700" fill="url(#ringGrad)" filter="url(#glow)">21</text>
+      <text x="53.3" y="24" text-anchor="middle" font-family="Verdana, sans-serif" font-size="11" fill="#a9c0e6">Longest Streak</text>
+    </g>
+    </g>
+    <g transform="translate(285.3,58)">
+    <g class="popIn" style="animation-delay:0.76s">
+      <text x="53.3" y="0" text-anchor="middle" font-family="Verdana, sans-serif" font-size="26" font-weight="700" fill="url(#ringGrad)" filter="url(#glow)">612</text>
+      <text x="53.3" y="24" text-anchor="middle" font-family="Verdana, sans-serif" font-size="11" fill="#a9c0e6">Total Contributions</text>
+    </g>
+    </g>
+</svg>
